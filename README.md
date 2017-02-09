@@ -1,6 +1,6 @@
 # Frequency Analysis of Words
 
-[TODO. There will be project description]
+Module prints a list of frequent words in order of decreasing frequency
 
 # Project Goals
 
