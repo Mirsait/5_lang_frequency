@@ -24,4 +24,10 @@ def get_most_frequent_words(text):
 
 
 if __name__ == '__main__':
-    pass
+    if len(sys.argv) > 1:
+        text = load_data(sys.argv[1])
+        arr = get_most_frequent_words(text)
+        for a in arr:
+            print(a)
+    else:
+        print("no file {}".format(sys.argv[1]))
